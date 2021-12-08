@@ -1,0 +1,6 @@
+/venv/
+.pass
+main.py
+/src/
+.idea/
+/online/

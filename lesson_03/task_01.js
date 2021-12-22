@@ -2,14 +2,14 @@
 
 const N = 100;
 var digit = 2;
-var result_list = [1, 2,]
+var resultList = [1, 2,]
 let simple = true;
 
 while (digit < N) {
     digit++
     let i = 1
     while (i < result_list.length) {
-        if (digit % result_list[i] == 0) {
+        if (digit % resultList[i] == 0) {
             simple = false
             break
         } else {
@@ -19,8 +19,8 @@ while (digit < N) {
     }
 
     if (simple == true) {
-        result_list.push(digit)
+        resultList.push(digit)
     }
 
 }
-alert(result_list)
+alert(resultList)

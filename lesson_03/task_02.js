@@ -7,10 +7,10 @@ cart.push(['товар 2', 2000])
 cart.push(['товар 3', 10])
 
 // b) Организовать функцию countCartPrice, которая будет считать стоимость корзины
-function countCartPrice(full_cart) {
+function countCartPrice(fullCart) {
     let result = 0
-    for (let index in full_cart) {
-        result += full_cart[index][1]
+    for (let item of fullCart) {
+        result += item[1]
     }
     return (result)
 }

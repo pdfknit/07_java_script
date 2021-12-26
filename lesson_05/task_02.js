@@ -41,10 +41,9 @@ addToCart(item3)
 
 let cart_div = document.getElementById("cart")
 
-if (cart.length > 0){
+if (cart.length > 0) {
     textForCart = 'В корзине: \n' + cart.length + ' товар(а, ов)  на сумму ' + countCartPrice(cart) + ' рублей'
-}
-else{
+} else {
     textForCart = 'Корзина пуста'
 }
 let p = document.createElement('p')

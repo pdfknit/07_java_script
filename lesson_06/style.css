@@ -1,0 +1,27 @@
+button{
+    padding: 10px
+}
+.all-items{
+    width: 100%;
+    margin:0 auto;
+    overflow: hidden;
+    float:left;
+}
+.item{
+    background-color: #EEE;
+    width: 30%;
+    padding: 10px;
+    float:left;
+    overflow: hidden;
+    margin:10px auto;
+}
+#cart {
+    background-color: lightgray;
+    min-height: 80px;
+    min-width: 80px;
+    padding: 10px;
+}
+
+.cart-img{
+    height: 40px;
+}

@@ -44,7 +44,7 @@ function reloadCart() {
 }
 
 function addToCart(event) {
-    cart.items.push(eval(event.path[1].id))
+    cart.items.push(eval(event.target.id))
     reloadCart()
 }
 
